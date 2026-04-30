@@ -1,0 +1,10 @@
+#Exercise 5: Days of the Month
+#Marionne Jizella E. Centeno
+calendar = {"January":31, "February":28, "March":31, "April":30, "May":31, "June":30, 
+            "July":31, "August":31, "September":30, "October":31, "November":30, 
+            "December":31}
+month = str(input("Enter the month's name to calculate it's corresponding days: "))
+print("Number of days in",month,":",calendar.get(month),"Days")
+print()
+print("Execution-Completed!")
+

@@ -1,0 +1,22 @@
+#Exercise 6: Brute Force Attack
+#Marionne Jizella E. Centeno
+
+correct_password = "12345"
+attempts = 5
+
+while attempts > 0:
+    password = input("Enter password: ")
+
+    if password == correct_password:
+        print("Access granted. Welcome!")
+        break
+    else:
+        attempts -= 1
+        if attempts > 0:
+            print(f"Incorrect password. You have {attempts} attempts left.")
+        else:
+            print("Maximum attempts reached. Authorities have been alerted.")
+i = 1
+while i < 6:
+    print(i)
+    i += 1
